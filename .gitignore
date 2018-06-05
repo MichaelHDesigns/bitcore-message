@@ -3,8 +3,8 @@ coverage
 node_modules
 
 npm-debug.log
-bitcore-message.js
-bitcore-message.min.js
+feathercore-message.js
+feathercore-message.min.js
 tests.js
 
 report
