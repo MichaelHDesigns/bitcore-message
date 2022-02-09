@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var feathercoreTasks = require('feathercore-build');
+var hthcoreTasks = require('hthcore-build');
 
-feathercoreTasks('message');
+hthcoreTasks('message');
 
 gulp.task('default', ['lint', 'coverage']);

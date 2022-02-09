@@ -1,18 +1,18 @@
 {
-  "name": "feathercore-message",
-  "main": "./feathercore-message.min.js",
+  "name": "hthcore-message",
+  "main": "./hthcore-message.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/FeatherCoin/feathercore-message",
+  "homepage": "https://github.com/hthcoin/hthcore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Feathercoin Message Verification and Signing for Feathercore",
+  "description": "hthcoin Message Verification and Signing for hthcore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "feathercoin",
-    "feathercore",
+    "hthcoin",
+    "hthcore",
     "ftc",
     "satoshi",
     "message",

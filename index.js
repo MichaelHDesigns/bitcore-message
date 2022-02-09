@@ -1,4 +1,4 @@
-var feathercore = require('feathercore-lib');
-feathercore.Message = require('./lib/message');
+var hthcore = require('hthcore-lib');
+hthcore.Message = require('./lib/message');
 
-module.exports = feathercore.Message;
+module.exports = hthcore.Message;

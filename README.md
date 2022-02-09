@@ -1,26 +1,26 @@
-# Feathercoin Message Verification and Signing for Feathercore
+# hthcoin Message Verification and Signing for hthcore
 
-feathercore-message adds support for verifying and signing feathercoin messages in [Node.js](http://nodejs.org/) and web browsers.
+hthcore-message adds support for verifying and signing hthcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install feathercore-message
+npm install hthcore-message
 ```
 
 ```sh
-bower install feathercore-message
+bower install hthcore-message
 ```
 
 To sign a message:
 
 ```javascript
-var feathercore = require('feathercore-lib');
-var Message = require('feathercore-message');
+var hthcore = require('hthcore-lib');
+var Message = require('hthcore-message');
 
-var privateKey = feathercore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = hthcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -37,4 +37,4 @@ var verified = Message('hello, world').verify(address, signature);
 Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2018 Feathercoin Core Developers
+Copyright 2018 hthcoin Core Developers
