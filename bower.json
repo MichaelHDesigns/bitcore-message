@@ -1,8 +1,8 @@
 {
-  "name": "hthcore-message",
-  "main": "./hthcore-message.min.js",
+  "name": "bitcore-message",
+  "main": "./bitcore-message.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/hthcoin/hthcore-message",
+  "homepage": "https://github.com/MichaelHDesigns/bitcore-message",
   "authors": [
     "BitPay"
   ],
