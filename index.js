@@ -1,4 +1,4 @@
-var hthcore = require('hthcore-lib');
-hthcore.Message = require('./lib/message');
+var bitcore = require('helpthehomeless-lib');
+bitcore.Message = require('./lib/message');
 
-module.exports = hthcore.Message;
+module.exports = bitcore.Message;
