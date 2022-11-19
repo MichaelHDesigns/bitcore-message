@@ -23,7 +23,7 @@
     "url": "https://github.com/MichaelHDesigns/bitcore-message.git"
   },
   "dependencies": {
-    "helpthehomeless-lib": "https://github.com/MichaelHDesigns/helpthehomeless-lib",
+    "bitcore-lib": "https://github.com/MichaelHDesigns/umbrucore-lib",
   },
   "devDependencies": {
     "bitcore-build": "https://github.com/MichaelHDesigns/bitcore-build-hth",
